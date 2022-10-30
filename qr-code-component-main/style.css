@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #d6e1f0;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 10rem auto;
+  padding: 1.5rem;
+  gap: 2rem;
+  border-radius: 20px;
+}
+
+.img-box img {
+  width: 25rem;
+  border-radius: 8px;
+}
+
+.text-box {
+  width: 20rem;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.text-box h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.text-box p {
+  font-weight: 400;
+  color: gray;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
